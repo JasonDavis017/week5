@@ -26,6 +26,10 @@ window.addEventListener('DOMContentLoaded', async function() {
     // - Get the user-entered location from the element's value
     let location = locationInput.value
 
+    // - Get a reference to the element containing the user-entered number of days
+
+    // - Get the user-entered number of days from the element's value
+
     // - Check to see if the user entered anything; if so:
     if (location.length >0){
 
@@ -46,7 +50,7 @@ window.addEventListener('DOMContentLoaded', async function() {
       let weatherConditions = json.current.condition
       let weatherForcast = json.forecast.forecastday
       // - Continue the recipe yourself!
-      
+
     }
   })
 })
